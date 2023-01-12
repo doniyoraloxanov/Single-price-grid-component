@@ -1,0 +1,117 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/**********************************/
+/* HEADER SECTION */
+/**********************************/
+
+.header {
+  background-color: hsl(204, 43%, 93%);
+  width: 701px;
+  padding: 32px;
+}
+
+.header-title {
+  color: hsl(179, 62%, 43%);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.header-text {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.header-content {
+  color: #555;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/**********************************/
+/* PRICING SECTION */
+/**********************************/
+
+.section-pricing {
+  display: flex;
+}
+
+.pricing-plan {
+  background-color: hsl(179, 62%, 43%);
+  padding: 32px 80px 32px 32px;
+}
+
+.pricing-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.pricing-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.pricing-text {
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 38px;
+}
+
+.pricing-sign-up {
+  background-color: hsl(71, 73%, 54%);
+  padding: 12px 96px;
+  border: none;
+  font-size: 18px;
+  border-radius: 9px;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 28px 0px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.preferences {
+  background-color: #22b8cf;
+  padding: 32px 96px 32px 32px;
+}
+
+.preferences-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+.lists {
+  list-style: none;
+  line-height: 1.5;
+}
